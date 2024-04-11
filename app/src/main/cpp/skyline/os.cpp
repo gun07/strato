@@ -3,6 +3,7 @@
 
 #include "gpu.h"
 #include "nce.h"
+#include <jit/jit32.h>
 #include "nce/guest.h"
 #include "kernel/types/KProcess.h"
 #include "vfs/os_backing.h"
@@ -65,6 +66,12 @@ namespace skyline::kernel {
                     LOGINF("Applied DLC {}", loader->cnmt->GetTitleId());
 
             LOGINF(R"(Starting "{}" ({}) v{} by "{}")", name, nacp->GetSaveDataOwnerId(), state.updateLoader ? state.updateLoader->nacp->GetApplicationVersion() : nacp->GetApplicationVersion(), publisher);
+        }
+
+        if (process->is64bit()) {
+            state.nce = std::make_shared<nce::NCE>(state);
+        } else { // 32-bit
+            state.jit32 = std::make_shared<jit::Jit32>(state);
         }
 
         process->InitializeHeapTls();
