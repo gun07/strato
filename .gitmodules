@@ -1,42 +1,42 @@
 [submodule "{fmt}"]
 	path = app/libraries/fmt
-	url = https://github.com/fmtlib/fmt
+	url = https://github.com/fmtlib/fmt.git
 [submodule "Oboe"]
 	path = app/libraries/oboe
-	url = https://github.com/google/oboe
+	url = https://github.com/google/oboe.git
 	branch = 1.3-stable
 [submodule "LZ4"]
 	path = app/libraries/lz4
 	url = https://github.com/lz4/lz4.git
 [submodule "Frozen"]
 	path = app/libraries/frozen
-	url = https://github.com/serge-sans-paille/frozen
+	url = https://github.com/serge-sans-paille/frozen.git
 [submodule "tzcode"]
 	path = app/libraries/tzcode
-	url = https://github.com/skyline-emu/tz
+	url = https://github.com/skyline-emu/tz.git
 	branch = master
 [submodule "Perfetto"]
 	path = app/libraries/perfetto
-	url = https://android.googlesource.com/platform/external/perfetto
+	url = https://android.googlesource.com/platform/external/perfetto.git
 	branch = releases/v12.x
 [submodule "Vulkan-Hpp"]
 	path = app/libraries/vkhpp
-	url = https://github.com/KhronosGroup/Vulkan-Hpp
+	url = https://github.com/KhronosGroup/Vulkan-Hpp.git
 [submodule "Vulkan Memory Allocator"]
 	path = app/libraries/vkma
-	url = https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator
+	url = https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git
 [submodule "Mbed TLS"]
 	path = app/libraries/mbedtls
-	url = https://github.com/ARMmbed/mbedtls
+	url = https://github.com/ARMmbed/mbedtls.git
 [submodule "Opus"]
 	path = app/libraries/opus
-	url = https://github.com/xiph/opus
+	url = https://github.com/xiph/opus.git
 [submodule "Boost"]
 	path = app/libraries/boost
 	url = https://github.com/strato-emu/boost.git
 [submodule "C++ Range v3"]
 	path = app/libraries/range
-	url = https://github.com/ericniebler/range-v3
+	url = https://github.com/ericniebler/range-v3.git
 [submodule "Sirit"]
 	path = app/libraries/sirit
 	url = https://github.com/strato-emu/sirit.git
@@ -45,19 +45,19 @@
 	url = https://github.com/strato-emu/shader-compiler.git
 [submodule "libadrenotools"]
 	path = app/libraries/adrenotools
-	url = https://github.com/bylaws/libadrenotools/
+	url = https://github.com/bylaws/libadrenotools.git
 [submodule "app/libraries/robin-map"]
 	path = app/libraries/robin-map
-	url = https://github.com/Tessil/robin-map
+	url = https://github.com/Tessil/robin-map.git
 [submodule "app/libraries/thread-pool"]
 	path = app/libraries/thread-pool
 	url = https://github.com/bshoshany/thread-pool.git
 [submodule "app/libraries/cubeb"]
 	path = app/libraries/cubeb
-	url = https://github.com/skyline-emu/cubeb
+	url = https://github.com/skyline-emu/cubeb.git
 [submodule "app/libraries/audio-core"]
 	path = app/libraries/audio-core
-	url = https://github.com/skyline-emu/audio-core
+	url = https://github.com/skyline-emu/audio-core.git
 [submodule "Dynarmic"]
 	path = app/libraries/dynarmic
 	url = https://github.com/strato-emu/dynarmic.git
